@@ -1,0 +1,94 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  FPS 20
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.9997904983299271 0.018368612142505552 0.009030699704576192 5.3691487660272115
+  position -0.020648571247731395 2.041528042797356 1.6491109948893103
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 1.2 1.8
+  floorTileSize 1.2 1.8
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/oval_line.png"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+DEF E_PUCK_1 E-puck {
+  translation 0.012961 0.000331519 0.27273
+  rotation -0.00014124498818739227 -0.9999999163679584 -0.00038381496790076795 1.76499
+  name "e-puck(4)"
+  controller "line_following_behavior"
+  camera_width 40
+  camera_height 1
+  window "botstudio"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
+DEF E_PUCK_1 E-puck {
+  translation 0.200335 0.000128646 0.317509
+  rotation -0.00017303798801393726 -0.9999999307316154 -0.0003295369771735044 2.026785307179586
+  name "e-puck(3)"
+  controller "line_following_behavior"
+  camera_width 40
+  camera_height 1
+  window "botstudio"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
+DEF E_PUCK_1 E-puck {
+  translation 0.356317 -1.05989e-05 0.487342
+  rotation -0.00024601598738834186 -0.9999999487364313 -0.00020494698949368538 2.81219
+  name "e-puck(2)"
+  controller "line_following_behavior"
+  camera_width 40
+  camera_height 1
+  window "botstudio"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
+DEF E_PUCK_1 E-puck {
+  translation 0.357861 -0.000153408 0.661224
+  rotation 0.0002881009854915905 0.9999999496412387 0.00013309899329729924 2.9474
+  name "e-puck(1)"
+  controller "line_following_behavior"
+  camera_width 40
+  camera_height 1
+  window "botstudio"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
+CardboardBox {
+  translation -0.2 0 0.74
+  size 0.05 0.1 0.05
+}
+DEF E_PUCK_1 E-puck {
+  translation 0.226981 -0.000186704 0.718216
+  rotation 0.0004666531334460893 0.9999998763720263 -0.0001717288130659536 1.3765997614327177
+  controller "line_following_behavior"
+  camera_width 40
+  camera_height 1
+  window "botstudio"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
